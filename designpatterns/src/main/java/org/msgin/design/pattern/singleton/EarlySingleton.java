@@ -25,9 +25,9 @@ public class EarlySingleton {
         System.out.println("hashcode of secondSingleton " + secondSingleton.hashCode());
 
         if(firstSingleton==secondSingleton) {
-            System.out.println("firstSingleton is same as secondSingleton");
+            System.out.println("firstSingleton is similar as secondSingleton");
         } else {
-            System.out.println("firstSingleton is not same as secondSingleton");
+            System.out.println("firstSingleton is not similar as secondSingleton");
         }
     }
 }
